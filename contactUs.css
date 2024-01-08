@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap,Poppins:wght@700&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+}
+form {
+    width: 400px;
+    margin-top: 80px;
+    padding: 10px 15px 25px 25px;
+    background-color:white;
+    /* background-color: rgba(61, 157, 174, 0.804); */
+    border-radius: 20px;
+    box-shadow: 0 0 7px black;
+}
+form input:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    outline: none;
+}
+form h2{
+    display: flex;
+    font-size: 30px;
+    font-family:'Poppins', sans-serif;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.787);
+}
+form a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    cursor: default;
+
+}
+form li{
+    list-style: none;
+    cursor:pointer;
+}
+
+label {
+    font-family:'Montserrat', sans-serif;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: tranform 2s ease-out;
+}
+input:hover{
+    transform: scale(1.02);
+}
+.submitButton input{
+    font-size: 15px;
+    width: 90px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.submitButton a{
+    cursor: default;
+}

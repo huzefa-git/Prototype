@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap,Poppins:wght@700&display=swap');
+h1{
+    display: flex;
+    font-size: 30px;
+    font-family:'Poppins', sans-serif;
+    justify-content: center;
+    margin-top: 300px;
+    color: rgba(255, 0, 0, 0.558);
+}
+h3{
+    display: flex;
+    font-size: 20px;
+    font-family:'Poppins', sans-serif;
+    justify-content: center;
+}
+input{
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 7px;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+}
+li{
+    margin-left: 660px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
