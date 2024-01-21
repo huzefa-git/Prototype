@@ -59,10 +59,6 @@ form li{
     background-color: white;
     margin-left: 38%;
 }
-.submit:hover{
-    background-color: rgba(255, 0, 0, 0.558);
-    color: white;
-}
 .logo{
     display: flex;
     align-items: center;
@@ -91,6 +87,7 @@ form li{
 }
 .submitButton input:hover{
     background-color: rgba(255, 0, 0, 0.558);
+    color: white;
 }
 #dummy{
     height: 15px;
